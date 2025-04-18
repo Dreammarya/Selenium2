@@ -30,7 +30,7 @@ time.sleep(4)
 product_name = "Sauce Labs Backpack"
 inventory_item_name = driver.find_element(By.XPATH, f"//div[text()='{product_name}']")
 assert inventory_item_name.is_displayed(), f"Product'{product_name}' not found!"
-print(f"✅ Product '{product_name}' exist.")
+print(f"yes. Product '{product_name}' exist.")
 
 
 time.sleep(2)
